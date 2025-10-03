@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  direction: rtl;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#sentence {
+  font-size: 20px;
+  margin: 20px 0;
+  min-height: 40px;
+}
+
+input[type="text"] {
+  font-size: 18px;
+  padding: 8px;
+  width: 60%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#english-sentence {
+  direction: ltr;
+  text-align: right;
+}
+
+#answer-input::placeholder {
+  text-decoration: none;
+  direction: ltr;
+}
+
+.image-container {
+  margin: 20px 0;
+}
+
+.image-container img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* הקו המקווקו*/
+
+/* קו תחתון ריק באורך קבוע */
+.underline {
+  display: inline-block;
+  border-bottom: 2px solid black;
+  width: 80px; /* אפשר להתאים */
+  height: 1em;
+  vertical-align: bottom;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #5e17eb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4726b1;
+}
